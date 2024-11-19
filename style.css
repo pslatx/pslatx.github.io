@@ -51,7 +51,7 @@ a {
 color:#000
 }
 
-.readbutton {
+.readbutton, .submitPass {
   display: inline-block;
   border-radius: 20px;
   background-color: #fff;
