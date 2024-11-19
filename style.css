@@ -6,7 +6,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-	margin-left:-10px;
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
@@ -28,6 +27,7 @@
     background: black;
     overflow: hidden;
     background: rgba(167, 28, 28, 0.73);
+		margin-left:-10px;
 }
 
 @media only screen and (max-width: 620px) {
