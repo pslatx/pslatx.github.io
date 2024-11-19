@@ -2,6 +2,11 @@
 	background-image: url(https://peoplesdispatch.org/wp-content/uploads/2024/07/claudia-de-la-cruz-elections.jpg);
 	max-width:100%;
 	background-color: rgba(0, 0, 0, 0.5);
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .webtitle {
