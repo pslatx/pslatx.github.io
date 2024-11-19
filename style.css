@@ -210,6 +210,10 @@ font-family: 'Garamond', 'serif';
   background-color: #eee;
   margin-bottom:20px;
 	font-family:'Garamond', 'serif';
+		-webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+
 }
 
 .furtherreadings {
@@ -225,6 +229,8 @@ font-style:italic;
 .card:hover {
 background-color: #777;
 color:white;
+cursor:pointer;
+margin-bottom:5px;
 }
 
 .author {
@@ -240,7 +246,7 @@ font-style:italic;
   font-size:17px;
   background-color: #eee;
   margin-bottom:15px;
-	font-family:'Garamond', 'serif';
+font-family:'Garamond', 'serif';
 }
 
 .author {
