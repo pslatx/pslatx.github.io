@@ -17,30 +17,34 @@ margin-left:-10px;
 }
 
 .webtitle {
+	padding:200px;
+	margin:auto;
 	margin-top:-10px;
-	padding: 300px;
 	color: white;
 	font-size: 70px;
 	font-family: 'Garamond', 'serif', 'serif';
 	text-align: center;
 	height: 200px;
-    width: 100wv;
+   	width: 69%;
+	max-width:100%;
     background: black;
     overflow: hidden;
     background: rgba(167, 28, 28, 0.73);
-		margin-left:-10px;
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 700px) {
 .webtitle {
-	padding: 10px;
-	padding-top:100px;
-	padding-bottom:250px;
-	font-size: 7.5wv;
-	font-family: 'Garamond', 'serif';
+	padding:130px;
+	margin:auto;
+	margin-top:-10px;
+	padding-bottom: 250px;
+	color: white;
+	font-size: 7vw;
+	font-family: 'Garamond', 'serif', 'serif';
 	text-align: center;
-	height: 350px;
-    width: 100wv;
+	height: 200px;
+    	width: 56%;
+	max-width:100%;
     background: black;
     overflow: hidden;
     background: rgba(167, 28, 28, 0.73);
@@ -246,6 +250,14 @@ font-family: 'Garamond', 'serif';
 padding:50px;
 }
 
+@media (max-width: 700px) {
+.furtherreadings {
+padding:0px;
+}
+}
+
+
+
 .readtitle {
 text-align: center;
 font-size:30px;
@@ -289,7 +301,7 @@ margin:0px;
 
 #additional-readings {
 font-size:30px;
-text-align: left;
+text-align: center;
 }
 
 #candidacy {
