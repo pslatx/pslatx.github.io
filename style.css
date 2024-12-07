@@ -334,10 +334,10 @@ font-size:13.5px;
 
 @media only screen and (max-width: 620px) {
 .blurb {
-	font-size:12px;
+	font-size:11.5px;
 }
 #unitname{
-font-size:21px;
+font-size:17px;
 }
 .readingssection {
 padding:10px;
