@@ -130,6 +130,9 @@ color:#000
 }
 
 @media only screen and (max-width: 620px) {
+.blurb {
+	font-size:12px;
+}
 .classreadingdoc{
 width:285px;
 }
