@@ -129,21 +129,6 @@ color:#000
   text-align: left;
 }
 
-@media only screen and (max-width: 620px) {
-.blurb {
-	font-size:12px;
-}
-#unitname{
-font-size:21px;
-}
-.readingssection {
-padding:10px;
-}
-.classreadingdoc{
-width:285px;
-}
-}
-
 .active, .classmodule:hover {
   background-color: #ccc;
 }
@@ -346,3 +331,19 @@ font-size:13.5px;
 #scrolltotop:hover {
   background-color: #000;
 }
+
+@media only screen and (max-width: 620px) {
+.blurb {
+	font-size:12px;
+}
+#unitname{
+font-size:21px;
+}
+.readingssection {
+padding:10px;
+}
+.classreadingdoc{
+width:285px;
+}
+}
+
