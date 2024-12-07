@@ -203,6 +203,7 @@ font-size: 25px;
 font-family: 'Garamond', 'serif';
 font-style: italic;
 font-weight:bold;
+	padding-bottom:10px;
 }
 
 .classmodule {
