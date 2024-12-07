@@ -6,7 +6,11 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-margin-left:-10px;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margins */
+  padding: 0;
+  box-sizing: border-box; /* Prevent width issues with padding/margins */
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
@@ -17,45 +21,27 @@ margin-left:-10px;
 }
 
 .webtitle {
-	padding:200px;
-	margin:auto;
-	margin-top:-10px;
-	color: white;
-	font-size: 70px;
-	font-family: 'Garamond', 'serif', 'serif';
-	text-align: center;
-	height: 200px;
-   	width: 69%;
-	max-width:100%;
-    background: black;
-    overflow: hidden;
-    background: rgba(167, 28, 28, 0.73);
+margin-top:0px;
+  width: 100%; /* Cover full width of parent */
+  height: 100%; /* Cover full height of parent */
+  color: white;
+  font-size: 8vw; /* Responsive font size */
+  font-family: 'Garamond', serif;
+  text-align: center;
+  display: flex; /* Enables flexbox for inner content */
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  background: rgba(167, 28, 28, 0.73); /* Semi-transparent red overlay */
+  box-sizing: border-box; /* Ensure padding does not affect size */
+   flex-direction: column; /* Arrange child elements in a column */
 }
 
-@media only screen and (max-width: 700px) {
-.webtitle {
-	padding:130px;
-	margin:auto;
-	margin-top:-10px;
-	padding-bottom: 250px;
-	color: white;
-	font-size: 7vw;
-	font-family: 'Garamond', 'serif', 'serif';
-	text-align: center;
-	height: 200px;
-    	width: 56%;
-	max-width:100%;
-    background: black;
-    overflow: hidden;
-    background: rgba(167, 28, 28, 0.73);
-}
-}
 
 a {
 color:#000
 }
 
-.readbutton, #submitPass {
+.readbutton {
   display: inline-block;
   border-radius: 20px;
   background-color: #fff;
@@ -68,7 +54,7 @@ color:#000
   padding: 15px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
+  margin: 10px 0;
 }
 
 #submitPass span {
@@ -176,7 +162,6 @@ width:285px;
 .readingssection {
 padding: 50px;
 padding-top:0px;
-padding-bottom:0px;
 }
 
 #candidacy {
@@ -203,7 +188,6 @@ font-size: 25px;
 font-family: 'Garamond', 'serif';
 font-style: italic;
 font-weight:bold;
-	padding-bottom:10px;
 }
 
 .classmodule {
