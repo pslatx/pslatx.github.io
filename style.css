@@ -14,8 +14,8 @@
 }
 
 @font-face {
-    font-family: 'Martin'; /*font name*/
-    src: url(''../font/VTC-Martin-Regular.ttf'); /*URL to font*/
+    font-family: 'Martin'; 
+    src: url('../font/VTC-Martin-Regular.ttf');
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
