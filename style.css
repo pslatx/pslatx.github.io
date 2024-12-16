@@ -13,6 +13,11 @@
   box-sizing: border-box; /* Prevent width issues with padding/margins */
 }
 
+@font-face {
+    font-family: 'Martin'; /*font name*/
+    src: url(''../font/VTC-Martin-Regular.ttf'); /*URL to font*/
+}
+
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
   .parallax {
