@@ -31,7 +31,7 @@ margin-top:0px;
   height: 100%; /* Cover full height of parent */
   color: white;
   font-size: 8vw; /* Responsive font size */
-  font-family: 'Garamond', serif;
+  font-family: 'Martin', serif;
   text-align: center;
   display: flex; /* Enables flexbox for inner content */
   justify-content: center; /* Center text horizontally */
