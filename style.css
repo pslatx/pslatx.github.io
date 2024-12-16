@@ -18,6 +18,22 @@
     src: url('/VTC-Martin-Regular.ttf') format('truetype');
 }
 
+@font-face {
+	   font-family: 'HelveticaNeue'; /*a name to be used later*/
+    src: url('/HelveticaNeue-BlackCond.otf') format('opentype');
+}
+
+@font-face {
+	   font-family: 'AcuminBold'; /*a name to be used later*/
+    src: url('/Acumin-BdPro.otf') format('opentype');
+}
+
+@font-face {
+	   font-family: 'AcuminReg'; /*a name to be used later*/
+    src: url('/Acumin-RPro.otf') format('opentype');
+}
+
+
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
   .parallax {
