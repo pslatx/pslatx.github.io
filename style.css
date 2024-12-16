@@ -49,7 +49,7 @@ margin-top:0px;
   font-size: 15.5vw; /* Responsive font size */
 letter-spacing:1px;
 	font-weight:100;
-  font-family: Martin, serif;
+  font-family: HelveticaNeue, serif;
   text-align: center;
   display: flex; /* Enables flexbox for inner content */
   justify-content: center; /* Center text horizontally */
@@ -163,7 +163,7 @@ padding-top:0px;
 text-align: center;
 font-size: 5em;
 font-weight:100;
-font-family: Martin, 'serif';
+font-family: HelveticaNeue, 'serif';
 	margin-bottom: 5px;
     margin-top: 15px;
 }
@@ -172,7 +172,7 @@ font-family: Martin, 'serif';
 text-align: center;
 font-size: 4em;
 font-weight:lighter;
-font-family: Martin, 'serif';
+font-family: HelveticaNeue, 'serif';
 	    margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -181,7 +181,7 @@ font-family: Martin, 'serif';
 text-align: center;
 font-size: 5em;
 font-weight:100;
-font-family: Martin, 'serif';
+font-family: HelveticaNeue, 'serif';
 	    margin-top: 10px;
     margin-bottom: 10px;
 }
