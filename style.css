@@ -41,6 +41,7 @@ letter-spacing:1px;
   background: rgba(167, 28, 28, 0.73); /* Semi-transparent red overlay */
   box-sizing: border-box; /* Ensure padding does not affect size */
    flex-direction: column; /* Arrange child elements in a column */
+    line-height: 110px;
 }
 
 
@@ -62,6 +63,7 @@ color:#000
   transition: all 0.5s;
   cursor: pointer;
   margin: 10px 0;
+margin-top: 35px;
 }
 
 .readbutton span {
@@ -139,6 +141,7 @@ color:#000
 .readingssection {
 padding: 50px;
 padding-top:0px;
+	    padding-bottom: 10.5px;
 }
 
 #candidacy {
@@ -146,6 +149,8 @@ text-align: center;
 font-size: 10vw;
 font-weight:100;
 font-family: Martin, 'serif';
+	margin-bottom: 5px;
+    margin-top: 15px;
 }
 
 #unitname {
@@ -153,6 +158,8 @@ text-align: center;
 font-size: 7vw;
 font-weight:lighter;
 font-family: Martin, 'serif';
+	    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #additional-readings {
@@ -160,6 +167,8 @@ text-align: center;
 font-size: 10vw;
 font-weight:100;
 font-family: Martin, 'serif';
+	    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .preread {
