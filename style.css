@@ -30,7 +30,7 @@ margin-top:0px;
   width: 100%; /* Cover full width of parent */
   height: 100%; /* Cover full height of parent */
   color: white;
-  font-size: 16vw; /* Responsive font size */
+  font-size: 15.5vw; /* Responsive font size */
 letter-spacing:1px;
 	font-weight:100;
   font-family: Martin, serif;
@@ -41,7 +41,6 @@ letter-spacing:1px;
   background: rgba(167, 28, 28, 0.73); /* Semi-transparent red overlay */
   box-sizing: border-box; /* Ensure padding does not affect size */
    flex-direction: column; /* Arrange child elements in a column */
-    line-height: 110px;
 }
 
 
@@ -155,7 +154,7 @@ font-family: Martin, 'serif';
 
 #unitname {
 text-align: center;
-font-size: 7vw;
+font-size: 8vw;
 font-weight:lighter;
 font-family: Martin, 'serif';
 	    margin-top: 10px;
