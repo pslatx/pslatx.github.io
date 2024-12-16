@@ -145,7 +145,7 @@ padding-top:0px;
 
 #candidacy {
 text-align: center;
-font-size: 5.5em;
+font-size: 5em;
 font-weight:100;
 font-family: Martin, 'serif';
 	margin-bottom: 5px;
@@ -154,7 +154,7 @@ font-family: Martin, 'serif';
 
 #unitname {
 text-align: center;
-font-size: 5em;
+font-size: 4em;
 font-weight:lighter;
 font-family: Martin, 'serif';
 	    margin-top: 10px;
@@ -163,7 +163,7 @@ font-family: Martin, 'serif';
 
 #additional-readings {
 text-align: center;
-font-size: 5.5em;
+font-size: 5em;
 font-weight:100;
 font-family: Martin, 'serif';
 	    margin-top: 10px;
@@ -220,6 +220,7 @@ font-family: 'Garamond', 'serif';
   }
 .readbutton {
   font-size: 18px;
+}
 }
 
 }
@@ -292,16 +293,7 @@ font-style:italic;
 margin:0px;
 }
 
-#additional-readings {
-font-size:30px;
-text-align: center;
-}
-
-#candidacy {
-font-size:30px;
-}
-
-.preread {
+	.preread {
 font-size:15px;
 }
 
@@ -333,9 +325,6 @@ font-size:13.5px;
 @media only screen and (max-width: 620px) {
 .blurb {
 	font-size:11.5px;
-}
-#unitname{
-font-size:17px;
 }
 .readingssection {
 padding:10px;
