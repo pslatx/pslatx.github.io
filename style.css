@@ -46,7 +46,7 @@ margin-top:0px;
   width: 100%; /* Cover full width of parent */
   height: 100%; /* Cover full height of parent */
   color: white;
-  font-size: 9em; /* Responsive font size */
+  font-size: 6em; /* Responsive font size */
 letter-spacing:1px;
 	font-weight:100;
   font-family: HelveticaNeue, serif;
@@ -174,7 +174,7 @@ font-size: 3em;
 font-weight:lighter;
 font-family: HelveticaNeue, 'serif';
 	    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 #additional-readings {
@@ -196,7 +196,7 @@ font-weight:bold;
 
 .classmodule {
 text-align: center;
-font-size: 30px;
+font-size: 20.5px;
 font-family: HelveticaNeue, 'Garamond', 'serif';
 font-weight:bold;
 }
