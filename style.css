@@ -46,7 +46,7 @@ margin-top:0px;
   width: 100%; /* Cover full width of parent */
   height: 100%; /* Cover full height of parent */
   color: white;
-  font-size: 15.5vw; /* Responsive font size */
+  font-size: 9em; /* Responsive font size */
 letter-spacing:1px;
 	font-weight:100;
   font-family: HelveticaNeue, serif;
@@ -61,16 +61,16 @@ letter-spacing:1px;
 
 
 a {
-color:#000
+color:#FFF;
 }
 
 .readbutton {
   display: inline-block;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: #121212;
   border: none;
-  color: #eee;
-  font-family: AcuminBold, 'Garamond' 'serif';
+  color: #FFF;
+  font-family: HelveticaNeue, 'Garamond' 'serif';
   text-align: center;
   font-size: 27px;
   font-weight: bold;
@@ -161,7 +161,7 @@ padding-top:0px;
 
 #candidacy {
 text-align: center;
-font-size: 5em;
+font-size: 4em;
 font-weight:100;
 font-family: HelveticaNeue, 'serif';
 	margin-bottom: 5px;
@@ -170,7 +170,7 @@ font-family: HelveticaNeue, 'serif';
 
 #unitname {
 text-align: center;
-font-size: 4em;
+font-size: 3em;
 font-weight:lighter;
 font-family: HelveticaNeue, 'serif';
 	    margin-top: 10px;
@@ -179,7 +179,7 @@ font-family: HelveticaNeue, 'serif';
 
 #additional-readings {
 text-align: center;
-font-size: 5em;
+font-size: 4em;
 font-weight:100;
 font-family: HelveticaNeue, 'serif';
 	    margin-top: 10px;
@@ -196,8 +196,8 @@ font-weight:bold;
 
 .classmodule {
 text-align: center;
-font-size: 25px;
-font-family: AcuminReg, 'Garamond', 'serif';
+font-size: 30px;
+font-family: HelveticaNeue, 'Garamond', 'serif';
 font-weight:bold;
 }
 
@@ -248,7 +248,7 @@ font-family: AcuminReg, 'Garamond', 'serif';
   font-size:25px;
   background-color: #eee;
   margin-bottom:20px;
-	font-family:'Garamond', 'serif';
+	font-family:AcuminReg,'Garamond', 'serif';
 -webkit-transition: margin 0.5s ease-out;
     -moz-transition: margin 0.5s ease-out;
     -o-transition: margin 0.5s ease-out;
@@ -293,7 +293,7 @@ font-style:italic;
   font-size:17px;
   background-color: #eee;
   margin-bottom:15px;
-font-family:'Garamond', 'serif';
+font-family:AcuminReg,'Garamond', 'serif';
 }
 
 .author {
@@ -352,3 +352,6 @@ width:315px;
 }
 }
 
+.readingssection a {
+color:#000;
+}
