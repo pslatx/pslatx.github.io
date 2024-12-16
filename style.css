@@ -30,7 +30,9 @@ margin-top:0px;
   width: 100%; /* Cover full width of parent */
   height: 100%; /* Cover full height of parent */
   color: white;
-  font-size: 8vw; /* Responsive font size */
+  font-size: 16vw; /* Responsive font size */
+letter-spacing:1px;
+	font-weight:100;
   font-family: Martin, serif;
   text-align: center;
   display: flex; /* Enables flexbox for inner content */
@@ -141,20 +143,23 @@ padding-top:0px;
 
 #candidacy {
 text-align: center;
-font-size: 50px;
-font-family: 'Garamond', 'serif';
+font-size: 10vw;
+font-weight:100;
+font-family: Martin, 'serif';
 }
 
 #unitname {
 text-align: center;
-font-size: 35px;
-font-family: 'Garamond', 'serif';
+font-size: 7vw;
+font-weight:lighter;
+font-family: Martin, 'serif';
 }
 
 #additional-readings {
 text-align: center;
-font-size: 50px;
-font-family: 'Garamond', 'serif';
+font-size: 10vw;
+font-weight:100;
+font-family: Martin, 'serif';
 }
 
 .preread {
