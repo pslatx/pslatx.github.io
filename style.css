@@ -42,21 +42,31 @@
 }
 
 .webtitle {
-margin-top:0px;
-  width: 100%; /* Cover full width of parent */
-  height: 100%; /* Cover full height of parent */
-  color: white;
-  font-size: 5em; /* Responsive font size */
-letter-spacing:1px;
-	font-weight:100;
-  font-family: HelveticaNeue, serif;
-  text-align: center;
-  display: flex; /* Enables flexbox for inner content */
-  justify-content: center; /* Center text horizontally */
-  align-items: center; /* Center text vertically */
-  background: rgba(167, 28, 28, 0.73); /* Semi-transparent red overlay */
-  box-sizing: border-box; /* Ensure padding does not affect size */
-   flex-direction: column; /* Arrange child elements in a column */
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 5em;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-family: HelveticaNeue, serif;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: rgba(167, 28, 28, 0.73);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 
