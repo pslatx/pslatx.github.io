@@ -13,6 +13,10 @@
   box-sizing: border-box; /* Prevent width issues with padding/margins */
 }
 
+@media screen and (max-device-width: 1024px){
+	background-attachment: scroll
+}
+
 @font-face {
     font-family: 'Martin'; /*a name to be used later*/
     src: url('/VTC-Martin-Regular.ttf') format('truetype');
