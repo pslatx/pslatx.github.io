@@ -60,7 +60,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background: rgba(167, 28, 28, 0.73);
+    background: rgba(167, 28, 28, .73);
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     -webkit-box-orient: vertical;
@@ -85,7 +85,7 @@ color:#FFF;
   font-size: 27px;
   font-weight: bold;
   padding: 15px;
-  transition: all 0.5s;
+  transition: all .5s;
   cursor: pointer;
   margin: 10px 0;
 margin-top: 35px;
@@ -104,7 +104,7 @@ margin-top: 35px;
   opacity: 0;
   top: 0;
   right: -20px;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 
@@ -127,7 +127,7 @@ margin-top: 35px;
   text-align: left;
   outline: none;
   font-size: 15px;
-  transition: 0.4s;
+  transition: .4s;
 }
 
 .blurb {
@@ -160,7 +160,7 @@ margin-top: 35px;
   background-color: white;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  transition: max-height .2s ease-out;
 }
 
 .readingssection {
@@ -252,16 +252,16 @@ font-family: AcuminReg, 'Garamond', 'serif';
 
 /* Style the counter cards */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
   padding: 16px;
   text-align: center;
   font-size:25px;
   background-color: #eee;
   margin-bottom:20px;
 	font-family:HelveticaNeue,'Garamond', 'serif';
--webkit-transition: margin 0.5s ease-out;
-    -moz-transition: margin 0.5s ease-out;
-    -o-transition: margin 0.5s ease-out;
+-webkit-transition: margin .5s ease-out;
+    -moz-transition: margin .5s ease-out;
+    -o-transition: margin .5s ease-out;
 
 }
 
@@ -297,7 +297,7 @@ font-style:italic;
 
 @media only screen and (max-width: 620px) {
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
   padding: 10px;
   text-align: center;
   font-size:17px;
@@ -339,7 +339,7 @@ font-size:13.5px;
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: rgba(167, 28, 28, 0.73);
+  background-color: rgba(167, 28, 28, .73);
   color: white;
   cursor: pointer;
   padding: 15px;
