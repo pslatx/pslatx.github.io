@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articles with Collapsible Sidebar</title>
+  <link rel="stylesheet" href="reading_style.css">
+</head>
+<body>
+
+  <div id="sidebar">
+    <h2>Outline</h2>
+    <ul>
+      <li><a href="#a1"><h1>ArticleName</h1></a></li>
+        <ul>
+          <li><a href="#a1s1"><h2>SectionName</h2></a></li>
+          <li><a href="#a1s2"><h2>SectionName</h2></a></li>
+        </ul>
+      <li><a href="#a2"><h1>ArticleName</h1></a></li>
+        <ul>
+          <li><a href="#a2s1"><h2>SectionName</h2></a></li>
+          <li><a href="#a2s2"><h2>SectionName</h2></a></li>
+        </ul>
+    </ul>
+  </div>
+  <button id="toggle-btn">☰</button>
+
+  <div id="content">
+    <article id="a1">
+      <h1>ArticleName</h1>
+      <hr>
+      <div class = "publish-date">MonthName DayNum, FullYear</div>
+      <div class="author">AuthorNameHere</div>
+      <hr>
+SECTION CONTENT HERE
+
+      <section id="a1s1">
+        <h2>SectionName</h2>
+SECTION CONTENT HERE
+      </section>
+
+      <section id="a1s2">
+        <h2>SectionName</h2>
+SECTION CONTENT HERE
+      </section>
+
+    </article>
+
+
+    <article id="a2">
+      <h1>ArticleName</h1>
+      <hr>
+      <div class = "publish-date">MonthName DayNum, FullYear</div>
+      <div class="author">AuthorNameHere</div>
+      <hr>
+SECTION CONTENT HERE
+
+      <section id="a2s1">
+        <h2>SectionName</h2>
+SECTION CONTENT HERE
+      </section>
+
+      <section id="a2s2">
+        <h2>SectionName</h2>
+SECTION CONTENT HERE
+      </section>
+  
+    </article>
+
+
+  </div>
+  <script>
+    // JavaScript for Collapsible Sidebar
+    const sidebar = document.getElementById('sidebar');
+    const toggleBtn = document.getElementById('toggle-btn');
+
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('collapsed');
+    });
+  </script>
+</body>
+</html>

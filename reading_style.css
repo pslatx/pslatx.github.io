@@ -1,0 +1,175 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar Styles */
+  #sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #ED1C24;
+    color: white;
+    overflow-y: auto;
+    transition: width 0.3s ease;
+    position: fixed;
+    border:2px solid #000000
+  }
+  
+  #sidebar.collapsed {
+    width: 0px;
+    border: 0px solid #000000
+  }
+  
+  #sidebar h2 {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  #sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #sidebar li {
+    padding: 0.5rem 1rem;
+  }
+  
+  #sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  }
+  
+  #sidebar a:hover {
+    background-color: #000000;
+  }
+  
+  /* Main Content */
+  #content {
+    flex-grow: 1;
+    padding: 5rem;
+    /* background-color: #f4f4f4; */
+    overflow-y: auto;
+    transition: margin-left 0.3s ease;
+    margin-left: 250px;
+  }
+
+  /* get rid of padding for tablets */
+  @media (max-width: 768px) {
+    #content {
+      padding: 1rem;
+    } 
+  }
+  /* get rid of padding for phones */
+  @media (max-width: 480px) {
+    #content {
+      padding: 0;
+    } 
+  }
+  
+  /* Collapsible Button */
+  #toggle-btn {
+    position: fixed;
+    top: 20px;
+    left: 252px;
+    width: 40px;
+    height: 80px;
+    background-color: #ED1C24;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: left 0.3s ease;
+    border:2px solid #000000
+  }
+  
+  #sidebar.collapsed + #toggle-btn {
+    left: 0px;
+  }
+
+  #sidebar + #toggle-btn {
+    display: block;
+  }
+
+  #sidebar.collapsed ~ #content {
+    margin-left: 50px; /* Adjust content margin when sidebar is collapsed */
+  }
+
+@font-face {
+    font-family: 'Martin'; /*a name to be used later*/
+    src: url('/VTC-Martin-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue'; /*a name to be used later*/
+    src: url('/HelveticaNeue-BlackCond.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AcuminBold'; /*a name to be used later*/
+    src: url('/Acumin-BdPro.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AcuminReg'; /*a name to be used later*/
+    src: url('/Acumin-RPro.otf') format('opentype');
+}
+
+section {
+    padding: 5px;
+}
+
+h1 {
+    font-family: HelveticaNeue, 'serif';
+    font-size: 3em;
+}
+
+/* #sidebar li {
+  padding: 0rem 0.5rem
+} */
+
+#sidebar h1 {
+  font-size: 1em;
+  padding-top: 1.5rem;
+}
+
+h2 {
+    font-family: HelveticaNeue, 'Garamond', 'serif';
+    font-size: 1.5em;
+}
+
+#sidebar h2 {
+  font-size: 0.75em;
+  padding:0rem;
+}
+
+p {
+    font-family: AcuminReg, 'Garamond', 'serif';
+    padding: 5px;
+}
+
+.publish-date{
+    background-color: #000000;
+    color:white;
+    width:fit-content;
+    padding-inline:10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-family: AcuminReg, 'Garamond', 'serif';
+}
+
+.author{
+    padding-inline:10px;
+    padding-top:10px;
+    font-family: AcuminReg, 'Garamond', 'serif';
+}
