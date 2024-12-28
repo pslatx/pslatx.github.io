@@ -44,6 +44,11 @@ body, h1, h2, p {
     color: white;
     text-decoration: none;
     display: block;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
   }
   
   #sidebar a:hover {
@@ -116,9 +121,17 @@ h1 {
     font-size: 3em;
 }
 
+#sidebar h1 {
+  font-size: 1em;
+}
+
 h2 {
     font-family: HelveticaNeue, 'Garamond', 'serif';
     font-size: 1.5em;
+}
+
+#sidebar h2 {
+  font-size: 0.75em;
 }
 
 p {
