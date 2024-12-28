@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articles with Collapsible Sidebar</title>
+  <link rel="stylesheet" href="reading_style.css">
+</head>
+<body>
+
+  <div id="sidebar">
+    <h2>Outline</h2>
+    <ul>
+      <li><a href="#a1"><h1>Proletarians and Communists / Chapter 2 of the Communist Manifesto</h1></a></li>
+      <li><a href="#a2"><h1>The Weapon of Theory</h1></a></li>
+      <li><a href="#a3"><h1>Socialist Reconstruction, Introduction</h1></a></li>
+        <ul>
+          <li><a href="#a3s1"><h2>WORKERS MAKE THE WORLD RUN—WORKERS SHOULD RUN THE WORLD</h2></a></li>
+          <li><a href="#a3s2"><h2>CLIMATE CHANGE IS CLASS STRUGGLE</h2></a></li>
+          <li><a href="#a3s3"><h2>SOCIALISM IS POSSIBLE AND NECESSARY</h2></a></li>
+          <li><a href="#a3s4"><h2>MEANINGFUL WORK AND MORE FREE TIME</h2></a></li>
+          <li><a href="#a3s5"><h2>A BETTER FUTURE UNDER SOCIALISM</h2></a></li>
+        </ul>
+    </ul>
+  </div>
+  <button id="toggle-btn">☰</button>
+
+  <div id="content">
+    <article id="a1">
+      <h1>Proletarians and Communists / Chapter 2 of the Communist Manifesto</h1>
+      <hr>
+      <div class = "publish-date">February 21, 1848</div>
+      <div class="author">Karl Marx and Friedrich Engels</div>
+      <hr>
+SECTION CONTENT HERE
+    </article>
+
+    <article id="a2">
+      <h1>The Weapon of Theory</h1>
+      <hr>
+      <div class = "publish-date">January 1966</div>
+      <div class="author">Amilcar Cabral</div>
+      <hr>
+SECTION CONTENT HERE
+    </article>
+
+    <article id="a3">
+      <h1>Socialist Reconstruction, Introduction</h1>
+      <hr>
+      <div class = "publish-date">October 2022</div>
+      <div class="author">Party for Socialism and Liberation</div>
+      <hr>
+SECTION CONTENT HERE
+      <section id="a3s5">
+        <h2>WORKERS MAKE THE WORLD RUN—WORKERS SHOULD RUN THE WORLD</h2>
+SECTION CONTENT HERE
+      </section>
+      <section id="a3s5">
+        <h2>CLIMATE CHANGE IS CLASS STRUGGLE</h2>
+SECTION CONTENT HERE
+      </section>
+      <section id="a3s5">
+        <h2>SOCIALISM IS POSSIBLE AND NECESSARY</h2>
+SECTION CONTENT HERE
+      </section>
+      <section id="a3s5">
+        <h2>MEANINGFUL WORK AND MORE FREE TIME</h2>
+SECTION CONTENT HERE
+      </section>
+      <section id="a3s5">
+        <h2>A BETTER FUTURE UNDER SOCIALISM</h2>
+SECTION CONTENT HERE
+      </section>
+    </article>
+
+  </div>
+  <script>
+    // JavaScript for Collapsible Sidebar
+    const sidebar = document.getElementById('sidebar');
+    const toggleBtn = document.getElementById('toggle-btn');
+
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('collapsed');
+    });
+  </script>
+</body>
+</html>
