@@ -46,7 +46,7 @@ start = """<!DOCTYPE html>
 </head>
 <body>
 
-  <div id="sidebar">
+  <div id="sidebar" class="collapsed">
     <h2>Outline</h2>
     <ul>"""
 
