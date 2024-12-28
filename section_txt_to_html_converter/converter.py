@@ -6,6 +6,7 @@ At the same time as we aim for revolution in the United States, we stand for def
 
 The magnitude of our tasks will be matched by our determination to win. Workers and oppressed people of the world, unite!"""
 
+original_section = original_section.replace("‘","'")
 original_section = original_section.replace("’","'")
 original_section = original_section.replace("“",'"')
 original_section = original_section.replace("”",'"')

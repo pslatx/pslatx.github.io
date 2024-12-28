@@ -121,6 +121,7 @@ for articleNum, (articleName, dateAuthorSections) in enumerate(classDict.items()
     articleID = f'a{articleNum}'
     output += content_dynamic_articleName_date_author(articleID, articleName, dateAuthorSections['date'], dateAuthorSections['author'])
     for sectionNum, sectionName in enumerate(dateAuthorSections['sections'], start=1):
+        sectionID = f'{articleID}s{sectionNum}'
         output += content_dynamic_section(sectionID, sectionName)
     output += content_article_end
 

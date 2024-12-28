@@ -13,7 +13,7 @@ To use the converter:
     easier so we avoid missing characters, which happens frequently when copy/pasting directly from pdfs)
 3. If you don't have word, upload the new .docx to your google drive so you can view it therein. Otherwise just view it
     in word.
-4. Open the .docx
+4. Open the .docx and scan each section for any highlighted typos and fix them (lots of extra hyphens in the midd-le of wor-ds)
 5. Copy and paste the complete content of a section (taking care to omit page numbers, headers/footers, etc) into the
     variable `original_section` in the converter.py
 6. Open a cmd and navigate to the section_txt_to_html_converter directory then run `python converter.py`. This will
