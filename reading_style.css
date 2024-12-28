@@ -64,6 +64,19 @@ body, h1, h2, p {
     transition: margin-left 0.3s ease;
     margin-left: 250px;
   }
+
+  /* get rid of padding for tablets */
+  @media (max-width: 768px) {
+    #content {
+      padding: 1rem;
+    } 
+  }
+  /* get rid of padding for phones */
+  @media (max-width: 480px) {
+    #content {
+      padding: 0;
+    } 
+  }
   
   /* Collapsible Button */
   #toggle-btn {
@@ -121,8 +134,13 @@ h1 {
     font-size: 3em;
 }
 
+/* #sidebar li {
+  padding: 0rem 0.5rem
+} */
+
 #sidebar h1 {
   font-size: 1em;
+  padding-top: 1.5rem;
 }
 
 h2 {
@@ -132,6 +150,7 @@ h2 {
 
 #sidebar h2 {
   font-size: 0.75em;
+  padding:0rem;
 }
 
 p {
