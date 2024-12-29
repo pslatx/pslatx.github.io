@@ -284,9 +284,17 @@
     const sidebar = document.getElementById('sidebar');
     const toggleBtn = document.getElementById('toggle-btn');
 
+    // Toggle sidebar when the button is clicked
     toggleBtn.addEventListener('click', () => {
       sidebar.classList.toggle('collapsed');
     });
+
+    // Collapse sidebar when any anchor inside it is clicked
+    const sidebarLinks = sidebar.querySelectorAll('a');
+    sidebarLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        toggleBtn.click();
+      });
   </script>
 </body>
 </html>
