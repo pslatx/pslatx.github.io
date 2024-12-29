@@ -16,7 +16,7 @@ body, h1, h2, p {
     background-color: #ED1C24;
     color: white;
     overflow-y: auto;
-    transition: width 0.3s ease;
+    transition: width 0.1s ease;
     position: fixed;
     border:2px solid #000000;
   }
@@ -87,7 +87,7 @@ body, h1, h2, p {
     color: white;
     border: none;
     cursor: pointer;
-    transition: left 0.3s ease;
+    transition: left 0.1s ease;
     border:2px solid #000000
   }
   
