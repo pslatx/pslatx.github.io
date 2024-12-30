@@ -35,5 +35,5 @@ To use the converter:
 As the final commit of each PR to convert a class pdf to html, 
     1. open a cmd terminal into the repo root directory, then run `staticrypt index-unrestricted.html -p pslatx`,
         this will create a directory called encrypted which will now have a index-unrestricted.html file.
-    2. Copy/paste the value of the staticcryptConfig variable from encrypted/index-unrestricted.html into the value of the same
+    2. Copy/paste the value of the staticryptConfig variable from encrypted/index-unrestricted.html into the value of the same
         variable in ./index.html
