@@ -1,21 +1,27 @@
 # You must define the outputName and the classDict
 
 # outputName should be of the format "reading_1.html", "reading_2.html", etc
-outputName = 'reading_5.html'
+outputName = 'reading_6.html'
 
 # {articleName:{'date':"Month Day, Year", 'author':"authorName", 'sections':["SectionTitle1, sectionTitle2"]}}
 classDict = {
-  'Fourth Party Congress,<br>Building a Leninist party with a mass orientation: Organizing and the social forces needed for revolution' : \
+  'Vatican renounces ‘Doctrine of Discovery’ When will the Supreme Court do likewise?': \
+      {
+        'date':'April 2, 2023',
+        'author': 'Richard Becker',
+        'sections': []
+    },
+  'Of, by, and for the elite: The class character of the U.S. Constitution':\
     {
-        'date':'July 28, 2019',
-        'author': 'Ben Becker',
+        'date': 'October 19, 2022',
+        'author': 'Crystal Kim',
         'sections':
           [
-              'THE NUMBERS THAT WOULD BE NEEDED FOR REVOLUTION',
-              'RACIAL-NATIONAL MAKEUP OF THE COUNTRY',
-              'THE POOR AND WORKING CLASS: PATH TO UNITY',
-              'HOW TO OVERCOME NATIONAL OPPRESSION SO AS TO UNITE THE CLASS?',
-              'THE ROLE OF THE PARTY IN BUILDING CADRES, CLASS CONSCIOUSNESS AND CLASS UNITY'
+              'INTRODUCTION',
+              'CONDITIONS LEADING TO THE U.S. REVOLUTION',
+              'THE LEADERS OF THE U.S. REVOLUTION',
+              'THE DRAFTING OF THE CONSTITUTION',
+              'References'
           ]
     }
 }
@@ -123,6 +129,12 @@ for articleNum, (articleName, dateAuthorSections) in enumerate(classDict.items()
     output += content_article_end
 
 output += end
+
+output = output.replace("‘","'")
+output = output.replace("’","'")
+output = output.replace("“",'"')
+output = output.replace("”",'"')
+output = output.replace("–",'-')
 
 with open(outputName, 'w', encoding='utf-8') as f:
     f.write(output)
