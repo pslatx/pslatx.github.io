@@ -31,3 +31,8 @@ To use the converter:
 6. Repeat steps 3 through 5 until you've finished all sections of the reading. *TIP: you can use `clear` in cmd to get
     rid of old lines to reduce clutter and eye-strain.
 7. Repeat steps 1 through 6 for all class pdfs you're converting.
+
+As the final commit of each PR to convert a class pdf to html, 
+    1. open a cmd terminal into the repo root directory, then run `staticrypt index-unrestricted.html -p pslatx`,
+        this will create a directory called encrypted which will now have a index-unrestricted.html file.
+    2. Copy/paste the content of encrypted/index-unrestricted.html into ./index.html
