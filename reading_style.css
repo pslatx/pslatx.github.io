@@ -11,12 +11,13 @@ body, h1, h2, p {
   
   /* Sidebar Styles */
   #sidebar {
+    left: 38px;
     width: 250px;
     height: 100%;
     background-color: #ED1C24;
     color: white;
     overflow-y: auto;
-    transition: width 0.3s ease;
+    transition: width 0.1s ease;
     position: fixed;
     border:2px solid #000000;
   }
@@ -79,15 +80,16 @@ body, h1, h2, p {
   
   /* Collapsible Button */
   #toggle-btn {
+    top: 0;
     position: fixed;
-    left: 252px;
+    left: 0px;
     width: 40px;
     height: 100%;
     background-color: #ED1C24;
     color: white;
     border: none;
     cursor: pointer;
-    transition: left 0.3s ease;
+    transition: left 0.1s ease;
     border:2px solid #000000
   }
   
