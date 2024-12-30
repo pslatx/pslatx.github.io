@@ -1,59 +1,29 @@
 # You must define the outputName and the classDict
 
 # outputName should be of the format "reading_1.html", "reading_2.html", etc
-outputName = 'reading_3.html'
+outputName = 'reading_6.html'
 
 # {articleName:{'date':"Month Day, Year", 'author':"authorName", 'sections':["SectionTitle1, sectionTitle2"]}}
 classDict = {
-    "Fifth Party Congress,<br>Preparing for the 5th Party Congress of the PSL" : \
+  'Vatican renounces ‘Doctrine of Discovery’ When will the Supreme Court do likewise?': \
       {
-          'date': 'October 2020',
-          'author': 'Brian Becker',
-          'sections':
-            [
-                'FOUNDATIONAL CRISES OF CAPITALISM SET THE STAGE',
-                'NEW ERA OF INTENSIFIED CLASS STRUGGLE',
-                'THE REVIVAL OF SOCIALISM IN THE UNITED STATES',
-                'CONDITIONS FOR REVOLUTION',
-                'THE PROCESS IN THE U.S.',
-                'HOW CONSCIOUSNESS GROWS - A CENTRAL LESSON FROM THE NATIONWIDE REVOLT AGAINST RACISM',
-
-            ]
-      },
-    'Fouth Party Congress,<br>The Role of Socialist Consciousness in a Revolutionary Process in the U.S.' : \
-      {
-          'date': "March 31, 2019",
-          'author': 'Brian Becker',
-          'sections': ['THE ACTUALITY OF REVOLUTION IN THE UNITED STATES']
-      },
-    'Second National Party Convention,<br>Recruiting New Cadres and New Leaders': \
-      {
-          'date': '2006',
-          'author': 'Party for Socialism and Liberation',
-          'sections': []
-      },
-    'Third Party Congress,<br>On Cadre Development':
-      {
-          'date': '2016',
-          'author': 'Party for Socialism and Liberation',
-          'sections': ['A VEHICLE FOR TRAINING']
-      },
-    'Second Party Congress,<br>RPI: The Three pillars for our organizational plan': \
-      {
-          'date':'2013',
-          'author':'Party for Socialism and Liberation',
-          'sections': []
-      },
-    'Third Party Congress,<br>Further on the "Era of Global Counter Revolution"' : \
-      {
-          'date':'2016',
-          'author':'Party for Socialism and Liberation',
-          'sections':
-            [
-                'FROM REVOLUTION TO COUNTER-REVOLUTION',
-                'PRINCIPLE ORGANIZATIONAL TASKS IN A NON-REVOLUTIONARY PERIOD'
-            ]
-      }
+        'date':'April 2, 2023',
+        'author': 'Richard Becker',
+        'sections': []
+    },
+  'Of, by, and for the elite: The class character of the U.S. Constitution':\
+    {
+        'date': 'October 19, 2022',
+        'author': 'Crystal Kim',
+        'sections':
+          [
+              'INTRODUCTION',
+              'CONDITIONS LEADING TO THE U.S. REVOLUTION',
+              'THE LEADERS OF THE U.S. REVOLUTION',
+              'THE DRAFTING OF THE CONSTITUTION',
+              'References'
+          ]
+    }
 }
 
 
@@ -159,6 +129,12 @@ for articleNum, (articleName, dateAuthorSections) in enumerate(classDict.items()
     output += content_article_end
 
 output += end
+
+output = output.replace("‘","'")
+output = output.replace("’","'")
+output = output.replace("“",'"')
+output = output.replace("”",'"')
+output = output.replace("–",'-')
 
 with open(outputName, 'w', encoding='utf-8') as f:
     f.write(output)
