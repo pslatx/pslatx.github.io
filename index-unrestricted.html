@@ -6,10 +6,17 @@
 <link rel="shortcut icon" type="image/x-icon" href="/psl.png" />
 </head>
 	<body>
+<!--new navigation bar to fix ios compatibility issues!-->
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#candidacy">Course Readings</a>
+  <a href="#additional-readings">Additional Readings</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 		  <div class='welimg lazy-background' data-bg='atxcap.jpg'>
-			<h1 class='webtitle'>PSL ATX<br>Candidacy Classes<br>
-			<button class="readbutton" style="vertical-align:middle"><a href='#candidacy'><span>Access Class Readings </a></span></button>			<button class="readbutton" style="vertical-align:middle"><a href='#additional-readings'><span>Additional Readings </a></span></button></h1>
-</h1>
+			<h1 class='webtitle'>PSL ATX<br>Candidacy Classes</h1>
 		  </div>
 		  
 <!--Course Readings Section !-->
@@ -698,6 +705,17 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+	
 </script>
 
 
