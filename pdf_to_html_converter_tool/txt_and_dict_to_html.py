@@ -1,30 +1,26 @@
 outline_dict ={
-    "Introduction to China's Revolution and the Quest for a Socialist Future":{
-        'date':'February 1, 2008',
-        'author':'Brian Becker',
+    "The U.S. agenda in Cuba remains counter-revolution":{
+        'date': 'January 2, 2015',
+        'author': 'Gloria La Riva',
         'sections':
-          [
-              'CHINA TURNS LEFT . . . AGAIN!',
-              'WHAT IS THE BEST WAY TO DEFEND CHINA?',
-              'LENIN AND DENG—TWO POLITICAL LINES ON MARKET REFORMS',
-              'TRANSITIONS TO SOCIALIST SOCIETY: CHINA AND USSR—TWO MODELS OF ECONOMIC GROWTH',
-              'IS CHINA A SOCIALIST COUNTRY?'
-          ]
+        [
+            'THE BLOCKADE REMAINS LOCKED IN PLACE'
+        ]
     },
-  '1800 - 1919: From Imperial China to Century of Humiliation Part 1, China’s Long Path to Socialism':{
-      'date':'June 2020',
-      'author':'Ken Hammond',
-      'sections':[]
+    'Communism is an aspiration: The future of Cuba':{
+        'date':'February 27, 2015',
+        'author':'Alejandro Castro Espín and Lasonas Pipinis Velasco',
+        'sections':['INTERVIEW']
     },
-  "1919-1949: National Liberation through Class Struggle Part 1, China’s Long Path to Socialism":{
-    'date': 'June 2020',
-    'author':'Ken Hammond',
-    'sections':[]   
-  }
+    'Cuba reaﬃrms socialism while it reckons with its private sector':{
+        'date':'July 25, 2023',
+        'author': 'Manolo De Los Santos',
+        'sections':[]
+    }
 }
 
-txt_file = 'pdf_to_html_converter_tool/class_11_docx.txt'
-outputName = 'reading_11.html'
+txt_file = 'pdf_to_html_converter_tool/class_12_docx.txt'
+outputName = 'reading_12.html'
 
 
 
