@@ -23,7 +23,7 @@ outline_dict ={
   }
 }
 
-txt_file = 'pdf_to_html_converter_tools/class_11_docx.txt'
+txt_file = 'pdf_to_html_converter_tool/class_11_docx.txt'
 outputName = 'reading_11.html'
 
 
@@ -48,6 +48,7 @@ def get_sections(outline_dict, txt_file):
         returnMe = returnMe.replace("“",'"')
         returnMe = returnMe.replace("”",'"')
         returnMe = returnMe.replace("–",'-')
+        returnMe = returnMe.replace('ﬀ','ff')
         return returnMe
 
             
@@ -211,15 +212,17 @@ def format_section_to_html(original_section):
 
     html_section = ""
 
-    for paragraph in paragraphs:
-        html_section += "<p>" + paragraph + "</p>"+'\n'
+    for i,paragraph in enumerate(paragraphs):
+        if i < len(paragraphs)-1: end = '\n'
+        else: end = ''
+        html_section += "<p>" + paragraph + "</p>"+end
     
     return html_section
 
 
 if __name__ == '__main__':
     sections_dict = get_sections(outline_dict, txt_file)
-    print_sections_dict(sections_dict)
+    # print_sections_dict(sections_dict)
     bulid_html(outline_dict, sections_dict, outputName)
     
     
