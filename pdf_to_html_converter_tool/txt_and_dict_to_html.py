@@ -1,26 +1,34 @@
-outline_dict ={
-    "The U.S. agenda in Cuba remains counter-revolution":{
-        'date': 'January 2, 2015',
-        'author': 'Gloria La Riva',
-        'sections':
-        [
-            'THE BLOCKADE REMAINS LOCKED IN PLACE'
+outline_dict = {
+    'Lenin and the right of nations to self-determination':{
+        'date':'April 19, 2021',
+        'author':'Gloria La Riva',
+        'sections':[
+            'MARX AND IRELAND',
+            'THE RUSSIAN EMPIRE: ‘PRISON HOUSE OF NATIONS’',
+            'IS WORKING CLASS UNITY POSSIBLE?',
+            'THE RIGHT OF SELF-DETERMINATION',
+            'WORLD WAR I AND THE STRUGGLE AGAINST IMPERIALISM'
         ]
     },
-    'Communism is an aspiration: The future of Cuba':{
-        'date':'February 27, 2015',
-        'author':'Alejandro Castro Espín and Lasonas Pipinis Velasco',
-        'sections':['INTERVIEW']
+    "Harry Haywood’s contributions to the National Question and the ﬁght for class unity":{
+        'date':'July 1, 2014',
+        'author':'Eugene Puryear',
+        'sections':
+        [
+            'THE “BLACK BELT THESIS”',
+            'DISTINCTIONS FROM BLACK NATIONALISM',
+            '‘BLACK AND WHITE, UNITE AND FIGHT!’'
+        ]
     },
-    'Cuba reaﬃrms socialism while it reckons with its private sector':{
-        'date':'July 25, 2023',
-        'author': 'Manolo De Los Santos',
+    'National Representative Assemblies from Socialist Reconstruction':{
+        'date':'August 25, 2022',
+        'author':'Party for Socialism and Liberation',
         'sections':[]
     }
 }
 
-txt_file = 'pdf_to_html_converter_tool/class_12_docx.txt'
-outputName = 'reading_12.html'
+txt_file = 'class_13_docx.txt'
+outputName = 'reading_13.html'
 
 
 
