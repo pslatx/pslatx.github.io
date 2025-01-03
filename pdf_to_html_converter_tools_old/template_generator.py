@@ -1,70 +1,32 @@
 # You must define the outputName and the classDict
 
 # outputName should be of the format "reading_1.html", "reading_2.html", etc
-outputName = 'reading_8.html'
+outputName = 'reading_11.html'
 
 # {articleName:{'date':"Month Day, Year", 'author':"authorName", 'sections':["SectionTitle1, sectionTitle2"]}}
 classDict = {
-  'What is imperialism? An introduction':\
-    {
-      'date': 'September 20, 2021',
-      'author': 'Summer Pappachen',
-      'sections':
-        [
-            'MARX ON COLONIALISM AND ANTI-COLONIAL STRUGGLES',
-            'FROM COLONIALISM TO IMPERIALISM',
-            'IMPERIALISM: CAPITALIST WARS AND REVOLUTIONARY SOLUTION',
-            'CONCLUSION: PROLETARIAN INTERNATIONALISM'
-        ]
-    },
- 'From inter-imperialist war to global class war: Understanding distinct stages of imperialism' :\
-    {
-        'date': 'July 20, 2018',
-        'author' : 'Brian Becker',
+    "Introduction to China's Revolution and the Quest for a Socialist Future":{
+        'date':'February 1, 2008',
+        'author':'Brian Becker',
         'sections':
           [
-              'ENDLESS WAR AND MILITARISM IN THE MODERN ERA',
-              'THE DEBATE ABOUT WAR AND MILITARISM',
-              'WHAT MADE WAR INEVITABLE UNDER CAPITALISM',
-              'THE CENTRALITY OF COLONIALISM TO LENIN’S THESIS',
-              'IMPERIALISM: FROM POLICY TO SYSTEM',
-              'SOVIET UNION CHANGES THE EQUATION',
-              'GLOBAL CLASS WAR PUTS A CAP ON INTER-IMPERIALIST CONFLICT',
-              'IMPERIALIST ENEMIES BECOME FRIENDS',
-              'NO WWIII, BUT SOME CLOSE CALLS',
-              'NUCLEAR WEAPONS AND THE ORIGIN OF THE COLD WAR',
-              'HOW ALLIES BECOME FRIENDS: BACKGROUND TO THE NEW GLOBAL CONFRONTATION',
-              'THE KOREAN WAR: A CLASS WAR DISGUISED AS A WAR BETWEEN NATIONS',
-              'CHURCHILL FAVORED NUCLEAR ANNIHILATION, US FAVORED ‘CONTAINMENT’',
-              '‘CONTAINMENT’ WAS A WAR AGAINST OPPRESSED PEOPLE FIGHTING FOR FREEDOM',
-              'IMPERIALIST WAR DRIVE CONTINUES IN NEW FORMS'
+              'CHINA TURNS LEFT . . . AGAIN!',
+              'WHAT IS THE BEST WAY TO DEFEND CHINA?',
+              'LENIN AND DENG—TWO POLITICAL LINES ON MARKET REFORMS',
+              'TRANSITIONS TO SOCIALIST SOCIETY: CHINA AND USSR—TWO MODELS OF ECONOMIC GROWTH',
+              'IS CHINA A SOCIALIST COUNTRY?'
           ]
     },
-  "International Peoples' Assembly Political Platform":\
-    {
-        'date': 'current',
-        'author': "International Peoples' Assembly",
-        'sections':
-          [
-            'FOR ANTI-CAPITALIST STRUGGLE AND NEW FORMS OF ORGANIZING SOCIETY',
-            'FOR ANTI-IMPERIALIST, ANTI-COLONIAL AND ANTI-ZIONIST STRUGGLE AND IN DEFENSE OF NATIONAL AND POPULAR SOVEREIGNTY',
-            'FOR ANTI-CAPITALIST AND PEOPLE’S FEMINISM',
-            'FOR THE ANTI-RACIST STRUGGLE AND AGAINST RACIAL DISCRIMINATION',
-            'FOR AN END TO THE FAILED BOURGEOIS STATE',
-            'FOR A NEW PEOPLE’S DEMOCRACY',
-            'FOR THE DEFENSE OF NATURAL RESOURCES AS COMMON GOODS',
-            'FOR A PEOPLE’S LAND REFORM',
-            'FOR CONTROL AND NATIONALIZATION OF THE FINANCIAL SYSTEM, TAX HAVENS, AND TRANSNATIONAL CORPORATIONS',
-            'FOR THE RIGHT TO WORK FOR ALL WITH RIGHTS AND WAGES WITH DIGNITY',
-            'FOR SOCIAL AND HUMAN RIGHTS',
-            'FOR THE RIGHT TO EDUCATION AND ACCESS TO KNOWLEDGE',
-            'FOR THE RIGHTS OF LGBT PEOPLE',
-            'FOR OUR RIGHTS AS MIGRANTS, REFUGEES, POPULATIONS IN DIASPORAS, INDIGENOUS AND AFRO DESCENDENT PEOPLES, AND ALL THOSE WHO ARE ESPECIALLY VULNERABLE IN OUR SOCIETIES',
-            'FOR THE FREEDOM OF ALL POLITICAL PRISONERS IN THE WORLD',
-            'FOR STRUGGLE WITH POLITICAL POWER',
-            'FIGHT AGAINST FUNDAMENTALISM, SECTARIANISM, AND RELIGIOUS INTOLERANCE'
-          ]
-    }
+  '1800 - 1919: From Imperial China to Century of Humiliation Part 1, China’s Long Path to Socialism':{
+      'date':'June 2020',
+      'author':'Ken Hammond',
+      'sections':[]
+    },
+  "1919-1949: National Liberation through Class Struggle Part 1, China’s Long Path to Socialism":{
+    'date': 'June 2020',
+    'author':'Ken Hammond',
+    'sections':[]   
+  }
 }
 
 
