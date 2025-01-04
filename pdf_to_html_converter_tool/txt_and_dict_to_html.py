@@ -1,43 +1,48 @@
 outline_dict = {
-    'Lessons from the UPS Contract Battle: Socialists Must Be Serious Unionists, Not Amateurish ‘Left’ Critics':{
-        'date':'November 6, 2023',
-        'author':'Husayn Karimi',
+    'Building democratic centralism: stages of Party growth and internal development':{
+        'date':'July 14, 2014',
+        'author':'Party for Socialism and Liberation',
         'sections':[
-            'VOTE YES OR VOTE NO',
-            'SOCIALISTS AND THE LABOR MOVEMENT'
+            'ORGANIZATIONAL STAGES OF THE PSL'
         ]
     },
-    'Why Make The Union A School For Socialism?':{
-        'date':'June 2022',
-        'author':'Husayn Karimi, Emma Kinema & Michael Kramer',
+    'The Leninist party in history and the present':{
+        'date':'November 17, 2016',
+        'author':'Brian Becker',
         'sections':[
-            'LEARNING THE RIGHT LESSONS',
-            'FROM THE BATTLE TO THE WAR'
+            'DEMOCRATIC CENTRALISM',
+            'CONFUSION ABOUT LENINIST CONCEPTIONS ON AN ORGANIZATION OF PROFESSIONAL REVOLUTIONARIES',
+            'LENIN AND THE THIRD INTERNATIONAL: PRINCIPLES OF PARTY ORGANIZATION',
+            'PRINCIPAL ORGANIZATIONAL TASKS IN THE ERA OF REVOLUTION',
+            'FROM REVOLUTION TO COUNTER-REVOLUTION'
         ]
     },
-    'Training to Move Millions Through the Labor Movement':{
-        'date':'January 2022',
-        'author': 'Nathalie Hrizi, Husayn Karimi & Mike Kramer',
+    'Leninism, anarchism and petty individualism':{
+        'date':'July 19, 2014',
+        'author':'Frank Lara',
         'sections':[
-            'WHY ORGANIZED LABOR?',
-            'THE STATE OF THE LABOR MOVEMENT',
-            'THE ROLE OF THE PSL IN THE TRADE UNION STRUGGLE',
-            'AN IDEAL TRAINING GROUND FOR CADRES',
-            'HOW TO BE A GOOD COMMUNIST IN THE UNION MOVEMENT',
-            'FROM LEADERS OF THE UNIONS, TO LEADERS OF THE NATION'
+            'LENINISM, ANARCHISM OR WHAT?',
+            'BUILDING TOWARDS UNITY'
         ]
     },
-    '“Left-Wing” Communism: an Infantile Disorder':{
-        'date':'April-May 1920',
-        'author':'Vladimir Lenin',
+    'Fourth Party Congress,<br>Excerpt from the Proposal on Introducing Units in Select Cities':{
+        'date':'July 17, 2019',
+        'author':'Ben Becker',
         'sections':[
-            'SHOULD REVOLUTIONARIES WORK IN REACTIONARY TRADE UNIONS?'
+            'MOTIVATION FOR LOCAL RESTRUCTURING'
+        ]
+    },
+    'Excerpt from Claudia Karina 2024 Presidential Campaign Interview':{
+        'date':'September 2023',
+        'author': 'Black Power Media, The Remix Morning Show',
+        'sections':[
+            
         ]
     }
 }
 
-txt_file = 'class_16_docx.txt'
-outputName = 'reading_16.html'
+txt_file = 'class_17_docx.txt'
+outputName = 'reading_17.html'
 
 
 
