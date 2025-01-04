@@ -1,34 +1,51 @@
 outline_dict = {
-    'Lenin and the right of nations to self-determination':{
-        'date':'April 19, 2021',
-        'author':'Gloria La Riva',
+    'A Marxist Perspective on Ending Women’s Oppression':{
+        'date':'December 27, 2018',
+        'author':'Radhika Miller',
         'sections':[
-            'MARX AND IRELAND',
-            'THE RUSSIAN EMPIRE: ‘PRISON HOUSE OF NATIONS’',
-            'IS WORKING CLASS UNITY POSSIBLE?',
-            'THE RIGHT OF SELF-DETERMINATION',
-            'WORLD WAR I AND THE STRUGGLE AGAINST IMPERIALISM'
+            'INTRODUCTION',
+            'CLASS SOCIETY THE ROOT OF WOMEN’S OPPRESSION',
+            'COMMUNAL SOCIETY',
+            'CLASS SOCIETY PRODUCES INEQUALITY',
+            'WOMEN’S OPPRESSION IN CAPITALIST SOCIETY',
+            'SOCIALISM LAYS THE BASIS FOR WOMEN’S LIBERATION',
+            'WE FIGHT FOR REFORMS AND STRUGGLE FOR FULL LIBERATION THROUGH SOCIALISM',
+            'Endnotes'
         ]
     },
-    "Harry Haywood’s contributions to the National Question and the ﬁght for class unity":{
-        'date':'July 1, 2014',
-        'author':'Eugene Puryear',
-        'sections':
-        [
-            'THE “BLACK BELT THESIS”',
-            'DISTINCTIONS FROM BLACK NATIONALISM',
-            '‘BLACK AND WHITE, UNITE AND FIGHT!’'
+    'The Root Causes of the Attacks On Reproductive Rights':{
+        'date':'January 18, 2020',
+        'author':'Karina Garcia',
+        'sections':[
+            'THE CAPITALIST MODE OF PRODUCTION AND THE FAMILY',
+            'REACTIONARY WORLDVIEW EXPLAINS ECONOMIC SHIFTS'
         ]
     },
-    'National Representative Assemblies from Socialist Reconstruction':{
-        'date':'August 25, 2022',
-        'author':'Party for Socialism and Liberation',
+    'Socially Reproductive Work Is Indispensable Yet Unpaid':{
+        'date':'March 2023',
+        'author':'Candice Yanez',
+        'sections':[
+            'UNPAID WORK IN THE HOME HAS A HIGH MONETARY VALUE',
+            'MAKING SOCIALLY REPRODUCTIVE WORK COLLECTIVE AND PUBLIC'
+        ]
+    },
+    'The Political Economy of Women’s Oppression':{
+        'date':'March 2023',
+        'author':'Marissa Sanchez',
         'sections':[]
+    },
+    'Feminism and Marxism':{
+        'date':'March 1978',
+        'author': 'Dorothy Ballan',
+        'sections':[
+            'ABOUT THE AUTHOR',
+            'THE WOMAN IN HISTORY'
+        ]
     }
 }
 
-txt_file = 'class_13_docx.txt'
-outputName = 'reading_13.html'
+txt_file = 'class_14_docx.txt'
+outputName = 'reading_14.html'
 
 
 
@@ -53,6 +70,7 @@ def get_sections(outline_dict, txt_file):
         returnMe = returnMe.replace("”",'"')
         returnMe = returnMe.replace("–",'-')
         returnMe = returnMe.replace('ﬀ','ff')
+        returnMe = returnMe.replace('ﬃ','ffi')
         return returnMe
 
             
