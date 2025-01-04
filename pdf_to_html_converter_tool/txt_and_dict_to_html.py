@@ -1,50 +1,43 @@
 outline_dict = {
-    'The Marxist Understanding of the Roots of LGBTQ Oppression':{
-        'date':'June 9, 2015',
-        'author':'Liberation School',
+    'Lessons from the UPS Contract Battle: Socialists Must Be Serious Unionists, Not Amateurish ‘Left’ Critics':{
+        'date':'November 6, 2023',
+        'author':'Husayn Karimi',
         'sections':[
-            'REVOLUTIONARY STRUGGLE AND LGBTQ LIBERATION',
-            'PATRIARCHY AND CLASS SOCIETY',
-            'ENTERING THE CAPITALIST ERA',
-            'RESISTANCE TO THE STATUS QUO',
-            'LEADING UP TO THE STONEWALL PERIOD',
-            'FIGHTING RACISM, SEXISM, HOMOPHOBIA AND TRANSPHOBIA'
+            'VOTE YES OR VOTE NO',
+            'SOCIALISTS AND THE LABOR MOVEMENT'
         ]
     },
-    'Albuquerque Public School Board ‘Parental Rights’ Proposal Part of the National Attack On LGBTQ Rights':{
-        'date':'January 20, 2023',
-        'author':'Candice Yanez',
+    'Why Make The Union A School For Socialism?':{
+        'date':'June 2022',
+        'author':'Husayn Karimi, Emma Kinema & Michael Kramer',
         'sections':[
-            'WHERE DID KB1 COME FROM?',
-            'WHAT’S NEXT IN ALBUQUERQUE?'
+            'LEARNING THE RIGHT LESSONS',
+            'FROM THE BATTLE TO THE WAR'
         ]
     },
-    'A Victory For One Is A Victory For All: Lessons From “Trans Liberation”':{
-        'date':'July 27, 2023',
-        'author':'Alithia Zamantakis and Aviva Levine',
+    'Training to Move Millions Through the Labor Movement':{
+        'date':'January 2022',
+        'author': 'Nathalie Hrizi, Husayn Karimi & Mike Kramer',
         'sections':[
-            'INTRODUCTION',
-            'SOCIAL & POLITICAL CONTEXT OF FEINBERG’S POLITICAL DEVELOPMENT',
-            'AN INJURY TO ONE IS AN INJURY TO ALL AND A VICTORY FOR ONE IS A VICTORY FOR ALL',
-            'THE ONGOING STRUGGLE FOR TRANS LIBERATION'
+            'WHY ORGANIZED LABOR?',
+            'THE STATE OF THE LABOR MOVEMENT',
+            'THE ROLE OF THE PSL IN THE TRADE UNION STRUGGLE',
+            'AN IDEAL TRAINING GROUND FOR CADRES',
+            'HOW TO BE A GOOD COMMUNIST IN THE UNION MOVEMENT',
+            'FROM LEADERS OF THE UNIONS, TO LEADERS OF THE NATION'
         ]
     },
-    'The AIDS Fight Back: Reﬂections From A Revolutionary':{
-        'date':'May 16, 2014',
-        'author': 'Preston Wood',
+    '“Left-Wing” Communism: an Infantile Disorder':{
+        'date':'April-May 1920',
+        'author':'Vladimir Lenin',
         'sections':[
-            'INTRODUCTION',
-            'CAPITALIST GOVERNMENT, MEDIA, AND BIGOTS SPREAD BIGOTRY, HATRED, AND FEAR',
-            'THE FIGHT BACK',
-            '“ACT UP! FIGHT BACK!”',
-            'DENIAL OF EDUCATION AND PREVENTION PROGRAMS',
-            'CAPITALIST RULE AND THE AIDS MULTI-FACETED WORLD PANDEMIC'
+            'SHOULD REVOLUTIONARIES WORK IN REACTIONARY TRADE UNIONS?'
         ]
     }
 }
 
-txt_file = 'class_15_docx.txt'
-outputName = 'reading_15.html'
+txt_file = 'class_16_docx.txt'
+outputName = 'reading_16.html'
 
 
 
@@ -63,13 +56,6 @@ def get_sections(outline_dict, txt_file):
         unedited = string[startIndex: endIndex]
         returnMe = unedited.replace(author,'')
         returnMe = returnMe.strip()
-        returnMe = returnMe.replace("‘","'")        
-        returnMe = returnMe.replace("’","'")
-        returnMe = returnMe.replace("“",'"')
-        returnMe = returnMe.replace("”",'"')
-        returnMe = returnMe.replace("–",'-')
-        returnMe = returnMe.replace('ﬀ','ff')
-        returnMe = returnMe.replace('ﬃ','ffi')
         return returnMe
 
             
@@ -237,6 +223,13 @@ def format_section_to_html(original_section):
         if i < len(paragraphs)-1: end = '\n'
         else: end = ''
         html_section += "<p>" + paragraph + "</p>"+end
+    html_section = html_section.replace("‘","'")        
+    html_section = html_section.replace("’","'")
+    html_section = html_section.replace("“",'"')
+    html_section = html_section.replace("”",'"')
+    html_section = html_section.replace("–",'-')
+    html_section = html_section.replace('ﬀ','ff')
+    html_section = html_section.replace('ﬃ','ffi')
     
     return html_section
 
