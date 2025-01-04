@@ -1,26 +1,48 @@
-outline_dict ={
-    "The U.S. agenda in Cuba remains counter-revolution":{
-        'date': 'January 2, 2015',
-        'author': 'Gloria La Riva',
-        'sections':
-        [
-            'THE BLOCKADE REMAINS LOCKED IN PLACE'
+outline_dict = {
+    'Building democratic centralism: stages of Party growth and internal development':{
+        'date':'July 14, 2014',
+        'author':'Party for Socialism and Liberation',
+        'sections':[
+            'ORGANIZATIONAL STAGES OF THE PSL'
         ]
     },
-    'Communism is an aspiration: The future of Cuba':{
-        'date':'February 27, 2015',
-        'author':'Alejandro Castro Espín and Lasonas Pipinis Velasco',
-        'sections':['INTERVIEW']
+    'The Leninist party in history and the present':{
+        'date':'November 17, 2016',
+        'author':'Brian Becker',
+        'sections':[
+            'DEMOCRATIC CENTRALISM',
+            'CONFUSION ABOUT LENINIST CONCEPTIONS ON AN ORGANIZATION OF PROFESSIONAL REVOLUTIONARIES',
+            'LENIN AND THE THIRD INTERNATIONAL: PRINCIPLES OF PARTY ORGANIZATION',
+            'PRINCIPAL ORGANIZATIONAL TASKS IN THE ERA OF REVOLUTION',
+            'FROM REVOLUTION TO COUNTER-REVOLUTION'
+        ]
     },
-    'Cuba reaﬃrms socialism while it reckons with its private sector':{
-        'date':'July 25, 2023',
-        'author': 'Manolo De Los Santos',
-        'sections':[]
+    'Leninism, anarchism and petty individualism':{
+        'date':'July 19, 2014',
+        'author':'Frank Lara',
+        'sections':[
+            'LENINISM, ANARCHISM OR WHAT?',
+            'BUILDING TOWARDS UNITY'
+        ]
+    },
+    'Fourth Party Congress,<br>Excerpt from the Proposal on Introducing Units in Select Cities':{
+        'date':'July 17, 2019',
+        'author':'Ben Becker',
+        'sections':[
+            'MOTIVATION FOR LOCAL RESTRUCTURING'
+        ]
+    },
+    'Excerpt from Claudia Karina 2024 Presidential Campaign Interview':{
+        'date':'September 2023',
+        'author': 'Black Power Media, The Remix Morning Show',
+        'sections':[
+            
+        ]
     }
 }
 
-txt_file = 'pdf_to_html_converter_tool/class_12_docx.txt'
-outputName = 'reading_12.html'
+txt_file = 'class_17_docx.txt'
+outputName = 'reading_17.html'
 
 
 
@@ -39,12 +61,6 @@ def get_sections(outline_dict, txt_file):
         unedited = string[startIndex: endIndex]
         returnMe = unedited.replace(author,'')
         returnMe = returnMe.strip()
-        returnMe = returnMe.replace("‘","'")        
-        returnMe = returnMe.replace("’","'")
-        returnMe = returnMe.replace("“",'"')
-        returnMe = returnMe.replace("”",'"')
-        returnMe = returnMe.replace("–",'-')
-        returnMe = returnMe.replace('ﬀ','ff')
         return returnMe
 
             
@@ -212,6 +228,13 @@ def format_section_to_html(original_section):
         if i < len(paragraphs)-1: end = '\n'
         else: end = ''
         html_section += "<p>" + paragraph + "</p>"+end
+    html_section = html_section.replace("‘","'")        
+    html_section = html_section.replace("’","'")
+    html_section = html_section.replace("“",'"')
+    html_section = html_section.replace("”",'"')
+    html_section = html_section.replace("–",'-')
+    html_section = html_section.replace('ﬀ','ff')
+    html_section = html_section.replace('ﬃ','ffi')
     
     return html_section
 
