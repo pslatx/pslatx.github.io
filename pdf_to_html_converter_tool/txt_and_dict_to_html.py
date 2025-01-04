@@ -1,51 +1,50 @@
 outline_dict = {
-    'A Marxist Perspective on Ending Women’s Oppression':{
-        'date':'December 27, 2018',
-        'author':'Radhika Miller',
+    'The Marxist Understanding of the Roots of LGBTQ Oppression':{
+        'date':'June 9, 2015',
+        'author':'Liberation School',
         'sections':[
-            'INTRODUCTION',
-            'CLASS SOCIETY THE ROOT OF WOMEN’S OPPRESSION',
-            'COMMUNAL SOCIETY',
-            'CLASS SOCIETY PRODUCES INEQUALITY',
-            'WOMEN’S OPPRESSION IN CAPITALIST SOCIETY',
-            'SOCIALISM LAYS THE BASIS FOR WOMEN’S LIBERATION',
-            'WE FIGHT FOR REFORMS AND STRUGGLE FOR FULL LIBERATION THROUGH SOCIALISM',
-            'Endnotes'
+            'REVOLUTIONARY STRUGGLE AND LGBTQ LIBERATION',
+            'PATRIARCHY AND CLASS SOCIETY',
+            'ENTERING THE CAPITALIST ERA',
+            'RESISTANCE TO THE STATUS QUO',
+            'LEADING UP TO THE STONEWALL PERIOD',
+            'FIGHTING RACISM, SEXISM, HOMOPHOBIA AND TRANSPHOBIA'
         ]
     },
-    'The Root Causes of the Attacks On Reproductive Rights':{
-        'date':'January 18, 2020',
-        'author':'Karina Garcia',
-        'sections':[
-            'THE CAPITALIST MODE OF PRODUCTION AND THE FAMILY',
-            'REACTIONARY WORLDVIEW EXPLAINS ECONOMIC SHIFTS'
-        ]
-    },
-    'Socially Reproductive Work Is Indispensable Yet Unpaid':{
-        'date':'March 2023',
+    'Albuquerque Public School Board ‘Parental Rights’ Proposal Part of the National Attack On LGBTQ Rights':{
+        'date':'January 20, 2023',
         'author':'Candice Yanez',
         'sections':[
-            'UNPAID WORK IN THE HOME HAS A HIGH MONETARY VALUE',
-            'MAKING SOCIALLY REPRODUCTIVE WORK COLLECTIVE AND PUBLIC'
+            'WHERE DID KB1 COME FROM?',
+            'WHAT’S NEXT IN ALBUQUERQUE?'
         ]
     },
-    'The Political Economy of Women’s Oppression':{
-        'date':'March 2023',
-        'author':'Marissa Sanchez',
-        'sections':[]
-    },
-    'Feminism and Marxism':{
-        'date':'March 1978',
-        'author': 'Dorothy Ballan',
+    'A Victory For One Is A Victory For All: Lessons From “Trans Liberation”':{
+        'date':'July 27, 2023',
+        'author':'Alithia Zamantakis and Aviva Levine',
         'sections':[
-            'ABOUT THE AUTHOR',
-            'THE WOMAN IN HISTORY'
+            'INTRODUCTION',
+            'SOCIAL & POLITICAL CONTEXT OF FEINBERG’S POLITICAL DEVELOPMENT',
+            'AN INJURY TO ONE IS AN INJURY TO ALL AND A VICTORY FOR ONE IS A VICTORY FOR ALL',
+            'THE ONGOING STRUGGLE FOR TRANS LIBERATION'
+        ]
+    },
+    'The AIDS Fight Back: Reﬂections From A Revolutionary':{
+        'date':'May 16, 2014',
+        'author': 'Preston Wood',
+        'sections':[
+            'INTRODUCTION',
+            'CAPITALIST GOVERNMENT, MEDIA, AND BIGOTS SPREAD BIGOTRY, HATRED, AND FEAR',
+            'THE FIGHT BACK',
+            '“ACT UP! FIGHT BACK!”',
+            'DENIAL OF EDUCATION AND PREVENTION PROGRAMS',
+            'CAPITALIST RULE AND THE AIDS MULTI-FACETED WORLD PANDEMIC'
         ]
     }
 }
 
-txt_file = 'class_14_docx.txt'
-outputName = 'reading_14.html'
+txt_file = 'class_15_docx.txt'
+outputName = 'reading_15.html'
 
 
 
