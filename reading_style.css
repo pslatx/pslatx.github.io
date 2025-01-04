@@ -54,8 +54,28 @@ body, h1, h2, p {
   
   #sidebar a:hover {
     background-color: #000000;
+      padding:10px;
   }
-  
+
+#sidebar a:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: .5s;
+}
+
+
+#sidebar:hover a {
+  padding-right: 25px;
+}
+
+#sidebar:hover a:after {
+  opacity: 1;
+  right: 0;
+}
+
   /* Main Content */
   #content {
     flex-grow: 1;
