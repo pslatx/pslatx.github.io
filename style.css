@@ -1,7 +1,7 @@
 .welimg {
 	background-image: url('/atxcap.jpg');
 	max-width:100%;
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(167, 28, 28, .73);
 	background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -253,9 +253,6 @@ color: #000000;
   }
 .readbutton {
   font-size: 18px;
-}
-.webtitle {
-    background: rgba(167, 28, 28, .73);
 }
 }
 
