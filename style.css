@@ -403,9 +403,10 @@ color:rgba(167, 28, 28, .73);
   content: '\00bb';
   position: absolute;
   opacity: 0;
-  top: 0;
-  right: -20px;
   transition: .5s;
+top: 25%;
+    right: 1%;
+    font-family: 'AcuminBold';
 }
 
 
