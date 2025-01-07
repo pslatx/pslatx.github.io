@@ -230,7 +230,11 @@ font-family: AcuminReg, 'Garamond', 'serif';
 
 /* Remove extra left and right margins, due to padding */
 .row 
-{margin: 0 -5px 10px 200px;
+{margin-left:10%;
+}
+
+.row a {
+color: #000000;
 }
 
 /* Clear floats after the columns */
