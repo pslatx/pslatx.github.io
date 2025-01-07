@@ -53,8 +53,7 @@ body, h1, h2, p {
   }
   
   #sidebar a:hover {
-    background-color: #000000;
-      padding:10px;
+    font-style: italic;
   }
 
   /* Main Content */
@@ -151,8 +150,19 @@ h2 {
 
 #sidebar h2 {
   font-size: 0.75em;
-  padding:0rem;
+  padding: 0rem;
+padding-top:0px!important;
+    font-family: 'AcuminReg', sans-serif;
+    font-weight: 300;
 }
+
+#sidebar > h2:first-child {
+    font-size: 20px;
+    font-family: HelveticaNeue;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;}
 
 p,li {
     font-family: AcuminReg, 'Garamond', 'serif';
