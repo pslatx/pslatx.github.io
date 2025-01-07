@@ -370,6 +370,10 @@ padding:10px;
 .classreadingdoc{
 width:315px;
 }
+#unitname {
+font-size:2.2em;
+font-family: HelveticaNeue, serif;
+}
 }
 
 .readingssection a {
