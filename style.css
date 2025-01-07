@@ -390,14 +390,14 @@ color:rgba(167, 28, 28, .73);
     transition: all .5s;
     cursor: pointer;
 }
-.panel a:span {
+.panel a {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.panel a:span:after {
+.panel a:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -407,11 +407,11 @@ color:rgba(167, 28, 28, .73);
 }
 
 
-.panel a:hover span {
+.panel a:hover {
   padding-right: 25px;
 }
 
-.panel a:hover span:after {
+.panel a:hover:after {
   opacity: 1;
   right: 0;
 }
