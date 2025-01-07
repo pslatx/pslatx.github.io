@@ -250,6 +250,7 @@ color: #000000;
     width: 100%;
     display: block;
     margin-bottom: 20px;
+	padding-left:0px;
   }
 .readbutton {
   font-size: 18px;
