@@ -255,6 +255,9 @@ color: #000000;
 .readbutton {
   font-size: 18px;
 }
+	.panel a {
+	font-size:14px;
+	}
 }
 
 
