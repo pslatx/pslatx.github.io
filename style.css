@@ -192,7 +192,7 @@ font-family: HelveticaNeue, 'serif';
 
 #additional-readings {
 text-align: center;
-font-size: 4em;
+font-size: 3.25em;
 font-weight:100;
 font-family: HelveticaNeue, 'serif';
 	    margin-top: 10px;
@@ -327,10 +327,6 @@ margin:0px;
 }
 .panel a {
 font-size:14px;
-}
-#additional-readings {
-font-size:30px;
-text-align: center;
 }
 	.preread {
 font-size:15px;
