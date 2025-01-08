@@ -14,7 +14,13 @@
 }
 
 @media screen and (max-device-width: 1024px){
-	background-attachment: scroll
+    .welimg {
+	background-attachment: scroll;
+    	background-size: cover; /* Adjust as needed */
+        background-position: center center;
+    }
+}
+
 }
 
 @font-face {
