@@ -383,27 +383,27 @@ font-family: HelveticaNeue!important;
 color:#000;
 }
 
-.panel a {
-    background-color: #DB1100;
-    font-family: HelveticaNeue;
-    text-decoration: none;
-    border-radius: 20px;
-    border: none;
-    color: #FFF;
-    font-size: 25px;
-    font-weight: bold;
-    padding: 15px;
-    transition: all .5s;
-    cursor: pointer;
-box-shadow: 5px 5px #b3b3b3;
+.panel a, .a-like {
+  background-color: #DB1100;
+  font-family: HelveticaNeue;
+  text-decoration: none;
+  border-radius: 20px;
+  border: none;
+  color: #FFF;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px;
+  transition: all .5s;
+  box-shadow: 5px 5px #b3b3b3;
 }
-.panel a {
-  cursor: pointer;
+.panel a, .a-like {
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
-
+.panel a {
+  cursor: pointer;
+}
 .panel a:after {
   content: '\00bb';
   position: absolute;
