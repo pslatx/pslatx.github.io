@@ -75,17 +75,20 @@ body, h1, h2, p {
   
   /* Collapsible Button */
   #toggle-btn {
-    top: 0;
+    top: 7%;
     position: fixed;
     left: 0px;
-    width: 40px;
+    width: 44px;
     height: 100%;
     background-color: #ED1C24;
     color: white;
-    border: none;
     cursor: pointer;
     transition: left 0.1s ease;
     border:2px solid #000000
+  }
+
+  #toggle-btn:hover {
+    background-color: #5d0101;
   }
   
   #sidebar.collapsed + #toggle-btn {
@@ -182,4 +185,26 @@ p,li {
 
 .interviewee{
   margin-left: 20px;
+}
+
+.home-button {
+  display: flex; /* Enables flexbox */
+  align-items: center; /* Centers vertically */
+  justify-content: center; /* Centers horizontally */
+  
+  cursor: pointer;
+  border: 2px solid #000000;
+  
+  position: fixed;
+  left: 0px;
+  width: 40px;
+  height: 6.8%;
+  background-color: #ED1C24;
+  color: white;
+  
+  transition: left 0.1s ease;
+}
+
+.home-button:hover {
+  background-color: #5d0101;
 }
