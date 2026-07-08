@@ -385,7 +385,7 @@ color:#000;
 }
 
 .panel a, .a-like {
-  background-color: #000;
+  background-color: #DB1010;
   font-family: HelveticaNeue;
   text-decoration: none;
   border-radius: 0px;
@@ -395,7 +395,8 @@ color:#000;
   font-weight: bold;
   padding: 15px;
   transition: all .5s;
-  box-shadow: 8px 8px #DB1010;
+  box-shadow: 8px 8px #fff,
+	 10px 10px #000;
 }
 .panel a, .a-like {
   display: inline-block;
