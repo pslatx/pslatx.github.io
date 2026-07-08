@@ -385,17 +385,17 @@ color:#000;
 }
 
 .panel a, .a-like {
-  background-color: #FFF;
+  background-color: #000;
   font-family: HelveticaNeue;
   text-decoration: none;
   border-radius: 0px;
   border: none;
-  color: #000;
+  color: #fff;
   font-size: 25px;
   font-weight: bold;
   padding: 15px;
   transition: all .5s;
-  box-shadow: 8px 8px #000;
+  box-shadow: 8px 8px #DB1010;
 }
 .panel a, .a-like {
   display: inline-block;
